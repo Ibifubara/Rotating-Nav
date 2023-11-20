@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotating Navigation</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="circle-container">
+        <div class="circle">
+          <button id="open">
+            <i class="bx bx-menu"></i>
+          </button>
+          <button id="close">
+            <i class="bx bx-x"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="article">
+        <div class="hero">
+            <div class="hero-content">
+                <p>This is</p>
+                <h1>The lifestyle captured</h1>
+            </div>
+        </div>
+
+        <div class="article-content">
+          <div class="lifestyle">
+            <div class="lifestyle-details">
+              <div>
+                <h4>Travel</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit
+                  harum illum magni at maxime quas sunt, saepe eius et delectus?
+                </p>
+                <div class="read-time">11 Nov 2023 - 7 min read</div>
+              </div>
+
+              <img src="images/travel.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="lifestyle">
+            <div class="lifestyle-details">
+              <div>
+                <h4>Fitness</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit
+                  harum illum magni at maxime quas sunt, saepe eius et delectus?
+                </p>
+
+                <div class="read-time">9 Nov 2023 - 5 min read</div>
+              </div>
+
+              <img src="images/fitness.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="lifestyle">
+            <div class="lifestyle-details">
+              <div>
+                <h4>Fashion</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit
+                  harum illum magni at maxime quas sunt, saepe eius et delectus?
+                </p>
+
+                <div class="read-time">7 Nov 2023 - 10 min read</div>
+              </div>
+
+              <img src="images/fashion.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><i class='bx bxs-home'></i>Home</li>
+            <li><i class='bx bxs-user'></i>About</li>
+            <li><i class='bx bxs-contact' ></i>Contact</li>
+        </ul>
+    </nav>
+
+    <script src="main.js"></script>
+  </body>
+</html>
